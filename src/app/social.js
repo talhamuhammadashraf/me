@@ -13,16 +13,24 @@ export default ()=>(
               id='li'
             />
           </a>
-          <a target='blank' href='https://www.facebook.com/talhaashraf1996'>
+          <a target='blank' href='https://www.github.com/talhamuhammadashraf/'>
+          <div id="instaDiv">
             <img
-              src='https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png'
-              id='fb'
+              src='http://pngimg.com/uploads/github/github_PNG58.png'
+              id='git'
             />
+            </div>
           </a>
           <a target='blank' href='https://twitter.com/Talha_Ganyani'>
             <img
               src='https://cdn3.iconfinder.com/data/icons/social-icons-5/607/Twitterbird.png'
               id='twitter'
+            />
+          </a>
+          <a target='blank' href='https://www.facebook.com/talhaashraf1996'>
+            <img
+              src='https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png'
+              id='fb'
             />
           </a>
           <a target='blank' href='https://www.instagram.com/talha.m.ashraf/'>
@@ -35,3 +43,5 @@ export default ()=>(
           </a>
         </div>
 )
+
+// 
