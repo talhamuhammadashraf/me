@@ -21,7 +21,7 @@ export default () => {
       </div>
       <div id='cardContainer'>
         {Appdata.map((item, index) => (
-          <Card key={index} uri={item.img} title={item.title} />
+          <Card key={index} uri={item.img} title={item.title} android={item.android} ios={item.ios} type={item.type}/>
         ))}
       </div>
       {/* footer */}

@@ -122,9 +122,10 @@ font-size: 1.5em;
 #projCard{
     width: 45%;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 0;
     background-color: rgba(183, 176, 172, 0.7);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
@@ -162,7 +163,7 @@ font-size: 1.5em;
     #projCard{
         width: 90%;
         padding-top: 5%;
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
         background-color: rgba(183, 176, 172, 0.7);
         display: flex;
         justify-content: center;
@@ -172,4 +173,24 @@ font-size: 1.5em;
         
     
     }
+}
+/* #top{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+#top{
+    display: flex;
+    /* width: 50%; */
+    flex-direction: row;
+    align-self: center;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.store{
+    height: 45px;
+    margin: 16px;
+    width: 45px;
 }
