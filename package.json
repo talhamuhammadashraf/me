@@ -1,7 +1,7 @@
 {
   "name": "profile-github",
   "version": "0.1.0",
-  "homepage": "https://talhamuhammadashraf.onrender.com/",
+  "homepage": "https://talhamuhammadashraf.github.io/me",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
