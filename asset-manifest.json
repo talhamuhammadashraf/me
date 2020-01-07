@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.3cdef895.chunk.css",
+    "main.js": "/me/static/js/main.9ea1224a.chunk.js",
+    "main.js.map": "/me/static/js/main.9ea1224a.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.310bbfa0.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.310bbfa0.js.map",
+    "static/js/2.48dcb86d.chunk.js": "/me/static/js/2.48dcb86d.chunk.js",
+    "static/js/2.48dcb86d.chunk.js.map": "/me/static/js/2.48dcb86d.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.ab2a4cc891bd459de48ef9587c8229b5.js": "/me/precache-manifest.ab2a4cc891bd459de48ef9587c8229b5.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.3cdef895.chunk.css.map": "/me/static/css/main.3cdef895.chunk.css.map",
+    "static/media/auovs.png": "/me/static/media/auovs.d4b21d43.png",
+    "static/media/deals.png": "/me/static/media/deals.c0704543.png",
+    "static/media/khaadi.png": "/me/static/media/khaadi.bfe88234.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.310bbfa0.js",
+    "static/js/2.48dcb86d.chunk.js",
+    "static/css/main.3cdef895.chunk.css",
+    "static/js/main.9ea1224a.chunk.js"
+  ]
+}
