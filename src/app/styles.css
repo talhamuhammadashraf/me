@@ -1,23 +1,27 @@
 
 #container{
-    background-color: #EDDFD8;
+    background-color:#044251;
+     /* #EDDFD8; */
     height: 100%;
-    padding-top: 16px;
+    /* padding-top: 16px; */
     margin-right: -10px;
     margin-left: -10px;
     margin-top: -10px;
-    color: #4285f4;
+    color: #044251;
+    /* color: #4285f4;//#044251 */
     font-size: 32px;
     font-style: oblique;
 }
 #header{
  display: flex;
+ background-color: #fff;
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
  flex-wrap: wrap;
  padding-bottom: 20px;
- border-bottom: 2px #fff solid ;
+ /* border-bottom: 2px #fff solid ;044251 */
+ border-bottom: 2px #1a8aa3 solid ;
  
 }
 #overview{
@@ -59,8 +63,8 @@
     /* margin-right: 12px; */
 }
 #git{
-    height: 52px;
-    width: 52px;
+    height: 50px;
+    width: 50px;
     
 }
 #li{
@@ -92,7 +96,8 @@
 #footer{
     padding-right: 22%;
     padding-left: 22%;
-    background-color: #313131;
+    /* background-color: #313131; */
+    background-color: #000;
     min-height: 280px;
     margin-right: auto;
     margin-left: auto;
@@ -125,7 +130,8 @@ font-size: 1.5em;
     width: 45%;
     padding-top: 5%;
     padding-bottom: 0;
-    background-color: rgba(183, 176, 172, 0.7);
+    /* background-color: rgba(183, 176, 172, 0.7); */
+    background-color: #e0e0e0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,6 +146,7 @@ font-size: 1.5em;
     display: flex;
     height: 150px;
     width: 150px;
+    border: #044251 2px dashed;
     border-radius: 75px;
     margin-right: auto;
     margin-left: auto;
