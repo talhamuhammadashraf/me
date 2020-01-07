@@ -1,9 +1,12 @@
 import React from 'react';
-
-export default ()=>(
+// 
+export default ({uri,title})=>(
     <div id='projCard'>
         <div>
-            <img src="http://www.theriderspod.com.au/images/site/logosmall.png" className="projImg"/>
+            <img src={uri} className="projImg"/>
+        <div id ='projTitle'>
+        {title}
+        </div>
         </div>
     </div>
 )

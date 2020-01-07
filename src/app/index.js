@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './styles.css';
 import Social from './social';
 import Card from './projectCard';
+import Appdata from './data'
 export default () => {
   return (
     <div id='container'>
@@ -18,10 +19,10 @@ export default () => {
         Native' with extensive experience ,have developed and contributed
         numerous mobile apps available on App Store & Play Store"
       </div>
-      <div id="cardContainer">
-      {
-          [1,2,3,4,5,6].map(()=><Card />)
-      }
+      <div id='cardContainer'>
+        {Appdata.map((item, index) => (
+          <Card key={index} uri={item.img} title={item.title} />
+        ))}
       </div>
       {/* footer */}
       <div id='footer'>
