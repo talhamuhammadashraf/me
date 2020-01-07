@@ -10,8 +10,8 @@ export default () => {
       <div id='header'>
         <span id='title'>Talha Ashraf</span>
         <div id='nav'>
-          <span className='nav'>About</span>
-          <span className='nav'>Projects</span>
+          <a href="#profile" className='nav'>About Me</a>
+          <a  className='nav'>Projects</a>
         </div>
       </div>
       <div id='overview'>
